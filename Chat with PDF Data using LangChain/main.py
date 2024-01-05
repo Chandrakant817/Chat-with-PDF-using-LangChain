@@ -10,7 +10,7 @@ import streamlit as st
 
 # Set up Azure OpenAI configuration
 deployment_name = "gpt-35-turbo"
-os.environ["OPENAI_API_KEY"] = "0e2b8bcd86b948b8b5fabe6f213cf221"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ['OPENAI_API_TYPE'] = 'azure'
 os.environ['OPENAI_API_BASE'] = "https://chandrakantopenai.openai.azure.com/"
 os.environ['OPENAI_API_VERSION'] = "2023-09-15-previ"
@@ -76,7 +76,7 @@ def main():
         )
         pdfTexts = text_splitter.split_text(raw_text)
 
-        embeddings = OpenAIEmbeddings(openai_api_key="0e2b8bcd86b948b8b5fabe6f213cf221",
+        embeddings = OpenAIEmbeddings(openai_api_key="",
                                       deployment="text-embedding-ada-002",
                                       client="azure")
 
