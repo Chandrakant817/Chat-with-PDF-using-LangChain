@@ -13,6 +13,9 @@ step 3. Install all the requirements:
  
 step 4. start writing the code, with standard file name as main.py
 
+## <b> Flow </b>
+![image](https://github.com/Chandrakant817/Chat-with-PDF-using-LangChain/assets/69152112/40d04d29-5a66-4d49-9e85-e84dec172c3b)
+
 ### <b> High Level Architecture </b>
 ![image](https://github.com/Chandrakant817/Chat-with-PDF-using-LangChain/assets/69152112/885d549e-3d21-4e95-a927-70b31a02c08d)
 
@@ -28,6 +31,7 @@ step 4. start writing the code, with standard file name as main.py
 
 ## <b> Output </b>
 ![image](https://github.com/Chandrakant817/Chat-with-PDF-using-LangChain/assets/69152112/e203a8a7-0388-418b-b11b-e8e2a18e9d74)
+
 
 ### <b> References </b>
 1. https://youtu.be/5Ghv-F1wF_0?si=7Y2yEV6k6y89VOeo
