@@ -94,7 +94,7 @@ def main():
         question = st.text_input("**Ask a question:**")
         if question:
             llm = AzureOpenAI(temperature=0,
-                              openai_api_key="0e2b8bcd86b948b8b5fabe6f213cf221",
+                              openai_api_key="",
                               deployment_name="gpt-35-turbo",
                               model_name="gpt-35-turbo")
 
