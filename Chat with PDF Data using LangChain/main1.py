@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 # Set up Azure OpenAI configuration
 deployment_name =  "gpt-35-turbo"
-os.environ["OPENAI_API_KEY"] = "2513f9b32234498690f592b325e7180a"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ['OPENAI_API_TYPE'] = 'azure'
 os.environ['OPENAI_API_BASE'] = "https://demoazureopenai01.openai.azure.com/"
 os.environ['OPENAI_API_VERSION'] = "2023-08-01-preview"
